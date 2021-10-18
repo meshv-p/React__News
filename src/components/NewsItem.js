@@ -13,7 +13,7 @@ export class NewsItem extends Component {
                 <div className={`card ${this.props.bgcolor} ` } style={{ width: '18rem',style: "--bs-bg-opacity: .5;" }}>
                     <span className="position-absolute top-0  translate-middle badge rounded-pill bg-danger" style={{left : '96%'}}>
                        {source}
-                        <span className="visually-hidden">unread messages</span>
+                        
                     </span>
                     <img src={imgageurl} className="card-img-top" alt="..." />
                     <div className="card-body">
